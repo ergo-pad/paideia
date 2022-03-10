@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -33,8 +34,26 @@ export default function Home() {
                 <p className="page-description p">
                   Paideia is an Ergopad incubated project, bringing a full suite of DAO management tools to the Ergo blockchain. 
                 </p>
-                <p className="p">Whitepaper and social links coming soon</p>
-{/*                 <nav className="footer-social-links">
+                <h2>Whitepaper</h2>
+                <ul className="footer-social-links">
+                  <li>
+                    <Link href="whitepaper/paideia_whitepaper_en.pdf" target="_blank">
+                      <a><i className="mdi mdi-file-download">English</i></a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="whitepaper/paideia_whitepaper_es.pdf" target="_blank">
+                      <a><i className="mdi mdi-file-download">Español</i></a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="whitepaper/paideia_whitepaper_it.pdf" target="_blank">
+                      <a><i className="mdi mdi-file-download">Italiano</i></a>
+                    </Link>
+                  </li>
+                </ul> 
+                {/* <h2>Social</h2>
+                <nav className="footer-social-links">
                     <a href="#!" className="social-link"><i className="mdi mdi-twitter"></i></a>
                     <a href="#!" className="social-link"><i className="mdi mdi-telegram"></i></a>
                     <a href="#!" className="social-link"><i className="mdi mdi-discord"></i></a>
