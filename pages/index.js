@@ -37,17 +37,17 @@ export default function Home() {
                 <h2>Whitepaper</h2>
                 <ul className="footer-social-links">
                   <li>
-                    <Link href="static/whitepaper/paideia_whitepaper_en.pdf" target="_blank">
+                    <Link href="/paideia_whitepaper_en.pdf" target="_blank">
                       <a><i className="mdi mdi-file-download">English</i></a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="static/whitepaper/paideia_whitepaper_es.pdf" target="_blank">
+                    <Link href="/paideia_whitepaper_es.pdf" target="_blank">
                       <a><i className="mdi mdi-file-download">Español</i></a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="static/whitepaper/paideia_whitepaper_it.pdf" target="_blank">
+                    <Link href="/paideia_whitepaper_it.pdf" target="_blank">
                       <a><i className="mdi mdi-file-download">Italiano</i></a>
                     </Link>
                   </li>
