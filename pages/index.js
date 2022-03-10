@@ -9,7 +9,7 @@ export default function Home() {
       <Head>
           <meta charset="UTF-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-          <title>Paideia - DAO Management Simplified</title>
+          <title>BootstrapDash Comingsoon Template</title>
           <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
           <link href="https://fonts.googleapis.com/css?family=Karla:400,700, 800, 900&display=swap" rel="stylesheet" />
           <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css" />
