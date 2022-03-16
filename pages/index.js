@@ -51,6 +51,11 @@ export default function Home() {
                       <a><i className="mdi mdi-file-download">Italiano</i></a>
                     </Link>
                   </li>
+                  <li>
+                    <Link href="/paideia_whitepaper_cn.pdf" target="_blank">
+                      <a><i className="mdi mdi-file-download">中文</i></a>
+                    </Link>
+                  </li>
                 </ul> 
                 {/* <h2>Social</h2>
                 <nav className="footer-social-links">
